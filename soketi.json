@@ -1,0 +1,17 @@
+{
+    "debug": true,
+    "port": 6001,
+    "appManager.array.apps": [
+        {
+            "id": "local",
+            "key": "local",
+            "secret": "local",
+            "webhooks": [
+                {
+                    "url": "https://159.65.22.63",
+                    "event_types": ["channel_occupied"]
+                }
+            ]
+        }
+    ]
+}
